@@ -3,7 +3,7 @@ import requests
 
 def sendMessage(message):
 
-    url = 'http://localhost:5005/webhooks/rest/webhook'
+    url = 'http://18.224.59.61:5005/webhooks/rest/webhook'
     data = '''{
       "sender": "Rasa2",
       "message": "'''+message+''''"
